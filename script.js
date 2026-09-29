@@ -1,0 +1,1 @@
+const menuBtn=document.getElementById('menuBtn');const panel=document.getElementById('menuPanel');menuBtn.addEventListener('click',()=>panel.classList.toggle('open'));panel.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>panel.classList.remove('open')));
